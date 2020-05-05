@@ -7,6 +7,9 @@
         <!-- CSS  -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <!-- Esta linea importa los estilos de la libreria intro.js -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/2.9.3/introjs.min.css" rel="stylesheet">
+
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
         <title>Inicio</title>
@@ -44,17 +47,17 @@
             </div>
           </div>
               <div class="row">
-                <div class="col m3 offset-m3 s10 offset-s1"><br>
+                <div class="col m3 offset-m3 s10 offset-s1" data-intro='Este es tu progreso actual de la tesis. Conforme pasa el tiempo ira aumentando!'><br>
                   <h5>Progreso de Tesis</h5>
                     <div class="progress tooltipped " data-position="bottom" data-tooltip="70%">
                       <div class="determinate" style="width: 30%"></div>
                     </div>
                 </div>
-                <div class="col m3 offset-m1 s10 offset-s1"><br>
+                <div class="col m3 offset-m1 s10 offset-s1" data-intro='Aca encontraras a tu docente asesor'><br>
                   <h5>Asesor</h5>
                   <h6>Nombre del viejillo asesor</h6>
                 </div>
-                <div class="col m8 offset-m3 s10 offset-s1"><br>
+                <div class="col m8 offset-m3 s10 offset-s1" data-intro='Aca encontraras el nombre de tu proyecto'><br>
                   <h5>Proyecto: </h5>
                   <h6>Nombre del proyecto de los bichos pacusos</h6>
                 </div>
@@ -74,8 +77,8 @@
           </div>
         <!--  Scripts-->
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/2.9.3/intro.min.js"></script>
         <script src="js/materialize.js"></script>
-        <script src="js/init.js"></script>
-     
+        <script src="js/init.js"></script>    
     </body>
 </html>     
