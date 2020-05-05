@@ -31,7 +31,7 @@
             <div class="col s2">
               <ul id="slide-out" class="sidenav sidenav-fixed ues">
                 <li><div >
-                  <img src="logo.svg" height="100%" width="35%" style="margin-top:6%; margin-left: 29%;" >
+                  <img src="img/1.svg" height="100%" width="35%" style="margin-top:6%; margin-left: 29%;" >
                 </div></li>
                 <br>
                 <li><div class="divider"></div></li><br>
@@ -42,33 +42,30 @@
                 <li><a style="color: white;" class="waves-effect" href="#!"><i style="color: white;" class="small material-icons">cancel</i>Salir</a></li><br>
               </ul>
             </div>
-            <div class="col s10">
-
-            </div>
+          </div>
         </div>
-      </div>
-      <br><br>
-      <h4 style="margin-left:23%;">SOLICITUDES</h4>
-      <br><br><br>
-      <center>
-      <nav style="margin-left:15%; width:60%;">
-        <div class="nav-wrapper">
-          <ul id="nav-mobile" class="left hide-on-med-and-down">
-            <li><a href="solicitudes.html">Cambio De Tema</a></li>
-            <li><a href="cambio asesor.html">Cambio De Asesor</a></li>
-            <li><a href="#">Cambio De Jurado</a></li>
-          </ul>
-        </div>
-    </center>
-      </nav>
-      <div class="row" style="margin-left:27.54%; width:59.89%; margin-top:-0.5%">
+        <div class="row">
+          <div class="col m9 offset-m3 s12">
+            <h4>SOLICITUDES DE CAMBIO</h4>
+          </div>
+          <div class="col m8 offset-m3 s12"><br>
+            <nav >
+              <div class="nav-wrapper center">
+                <ul>
+                  <li class="col s4"><a href="solicitudes.html">Tema</a></li>
+                  <li class="col s4"><a href="cambio asesor.html">Asesor</a></li>
+                  <li class="col s4"><a href="cambio jurado.html">Jurado</a></li>
+                </ul>
+              </div>
+            </nav>
           <div class="card white">
-            <div class="card-content black-text">
-              <span class="card-title">DOCENTE ASESOR ACTUAL: (aqui va el nombre del man o de la woman XD)</span><br>
-              <br><br>
-              <div class="input-field col s12" style="width:30%; margin-left:20%; margin-top:-5%;">
-                <label>Seleccione Nuevo Docente Asesor:</label>
-                <br><br>
+            <div class="card-content black-text col s12">
+              <span class="card-title">Docente Asesor actual: Nombre de la viejilla o el viejillo </span>
+                <div class="row">
+                  <div class="input-field col m8 offset-m1 s10 offset-s1">
+                    <p>Seleccione el nuevo Docente Asesor:</p>
+                  </div>
+                  <div class="input-field col m4 offset-m2 s8  offset-s2">
                     <select class="browser-default grey grey lighten-2">
                       <option value="" disabled selected>DOCENTE</option>
                       <option value="1">Docente 1</option>
@@ -79,10 +76,24 @@
                       <option value="6">Docente 6</option>
                     </select>
                   </div>
-              <button class="red darken-2 btn" style="margin-left:25%; margin-top:0.5%;">Generar Solicitud</button>
-              <br><br><br>
-              <p style="margin-left:10%;">SU DOCENTE ASESOR APARECERA CUANDO HAYA SIDO APROBADO EL ACUERDO DE JUNTA DIRECTIVA</p>
+                  <div class="col m4 s10 offset-s1">
+                    <br><button class="red darken-2 btn col m12 s12">Generar Solicitud</button>
+                  </div>
+                  <div class="col m10 offset-m1 s12">
+                    <br><br>
+                    <p>SU DOCENTE ASESOR APARECERA CUANDO HAYA SIDO APROBADO EL ACUERDO DE JUNTA DIRECTIVA</p>
+                  </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+
+                <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+     
+    </body>
+</html> 
