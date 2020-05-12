@@ -2,6 +2,8 @@
   $(function(){
     $('.sidenav').sidenav();
     $('.tooltipped').tooltip();
+    $('.collapsible').collapsible();
+    $('.modal').modal();
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
@@ -11,3 +13,4 @@ $(function() {
       $('#' + $(this).val()).show();
   });
 });
+

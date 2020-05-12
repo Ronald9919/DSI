@@ -5765,6 +5765,11 @@ body.keyboard-focused .dropdown-content li:focus {
   border-radius: 2px;
   will-change: top, opacity;
 }
+.modal-sm {
+  max-height: 70%;
+  width: 30%;
+  margin-top: 5%;
+}
 
 .modal:focus {
   outline: none;
