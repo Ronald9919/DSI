@@ -5766,9 +5766,19 @@ body.keyboard-focused .dropdown-content li:focus {
   will-change: top, opacity;
 }
 .modal-sm {
-  max-height: 70%;
+  max-height: auto;
   width: 30%;
   margin-top: 5%;
+}
+.modal-sm-sm{
+  max-height: auto;
+  width: 25%;
+  margin-top: 10%;
+}
+.modal-lg{
+  max-height: 80%;
+  width: 55%;
+  height: 70%;
 }
 
 .modal:focus {
@@ -8657,7 +8667,8 @@ input[type=range]::-ms-thumb {
 
 /* Modal */
 .datepicker-modal {
-  max-width: 325px;
+  max-width: 500px;
+  width: 70%;
   min-width: 300px;
   max-height: none;
 }
@@ -8874,7 +8885,8 @@ input[type=range]::-ms-thumb {
 
 /* Timepicker Containers */
 .timepicker-modal {
-  max-width: 325px;
+  max-width: 400px;
+  width: 60%;
   max-height: none;
 }
 

@@ -153,7 +153,7 @@
                         </div>
                         <div class="row">
                             <div class="col m2">
-                                <button class="red darken-2 btn">APROBAR</button>
+                                <button data-target="idmodal3" class="btn modal-trigger red darken-2">ACEPTAR</button>
                              </div>
                              <div class="col m2">
                                 <button data-target="idmodal" class="btn modal-trigger red darken-2">RECHAZAR</button>
@@ -167,14 +167,41 @@
                 </div> 
                 <div class="modal modal-sm" id="idmodal">
                     <div class="modal-content">
-                        <p>Esta por rechazar un documento, es necesario que ingrese una observacion
-                            de la razor porque esta rechanzando el documento
-                        </p><br>
+                        <i style="color: yellow;" class="medium material-icons">warning</i>
+                            <h6 style="text-align: justify;">
+                                Esta por rechazar un documento, es necesario que ingrese una observacion
+                                de la razor porque esta rechanzando el documento
+                            </h6>
+                        <div class="input-field">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Observacion</label>
+                          </div>
                     </div> 
                     <div class="modal-footer">
-                        <a href="" class="btn waves-effect red darken-2 modal-close">Rechazar</a>
+                        <button data-target="idmodal2" class="btn modal-trigger red darken-2">Rechazar</button>
                     </div> 
-                </div>                    
+                </div>
+                <div class="modal modal-sm modal-sm-sm" id="idmodal2">
+                    <div class="modal-content">
+                        <h6 style="text-align: justify;">
+                            Desea rechazar el documento (nombre) del grupo (numero de grupo)
+                        </h6>
+                    </div> 
+                    <div class="modal-footer">
+                        <a href="" class="btn waves-effect red darken-2 modal-close center">Si</a>
+                        <a href="" class="btn waves-effect red darken-2 modal-close center">No</a>
+                    </div> 
+                </div>
+                <div class="modal modal-sm modal-sm-sm" id="idmodal3">
+                    <div class="modal-content">
+                        <h6 style="text-align: justify;">
+                            Documento aprobado con exito!
+                        </h6>
+                    </div> 
+                    <div class="modal-footer">
+                        <a href="" class="btn waves-effect red darken-2 modal-close">Aceptar</a>
+                    </div> 
+                </div>                                          
         <!--  Scripts-->
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/materialize.js"></script>
