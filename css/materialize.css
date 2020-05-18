@@ -5759,7 +5759,7 @@ body.keyboard-focused .dropdown-content li:focus {
   background-color: #fafafa;
   padding: 0;
   max-height: 70%;
-  width: 55%;
+  width: auto;
   margin: auto;
   overflow-y: auto;
   border-radius: 2px;
@@ -8667,7 +8667,7 @@ input[type=range]::-ms-thumb {
 
 /* Modal */
 .datepicker-modal {
-  width: 70%;
+  width: auto;
   min-width: 300px;
   max-height: none;
 }
@@ -8884,7 +8884,7 @@ input[type=range]::-ms-thumb {
 
 /* Timepicker Containers */
 .timepicker-modal {
-  width: 60%;
+  width: auto;
   max-height: none;
 }
 
