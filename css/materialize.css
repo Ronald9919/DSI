@@ -8667,7 +8667,6 @@ input[type=range]::-ms-thumb {
 
 /* Modal */
 .datepicker-modal {
-  max-width: 500px;
   width: 70%;
   min-width: 300px;
   max-height: none;
@@ -8885,7 +8884,6 @@ input[type=range]::-ms-thumb {
 
 /* Timepicker Containers */
 .timepicker-modal {
-  max-width: 400px;
   width: 60%;
   max-height: none;
 }
