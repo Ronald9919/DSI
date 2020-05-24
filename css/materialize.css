@@ -5780,6 +5780,11 @@ body.keyboard-focused .dropdown-content li:focus {
   width: 40%;
   height: 70%;
 }
+.modal-xl{
+  max-height: 80%;
+  width: 70%;
+  height: 70%;
+}
 
 .modal:focus {
   outline: none;

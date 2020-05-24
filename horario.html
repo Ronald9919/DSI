@@ -44,9 +44,13 @@
             </div>
         </div>
         <div class="row">
-            <div class="col m10 offset-m3 s12">
-                <h4>Horiarios</h4>
-              </div>
+            <div class="col m8 offset-m3 s12">
+                <h4>Horarios</h4>
+            </div>
+            <div class="col m3 offset-m9 s7 offset-s5">
+                <a class="btn-flat red-text text-darken-2">Nuevo Horario</a> 
+                <a class="btn-floating btn-large waves-effect waves-light modal-trigger red darken-2" href="#modal"><i class="material-icons">add</i></a>  
+            </div>
             <div class="col m8 offset-m3 s12">
                 <div class="card">
                     <div class="card-content">
@@ -103,6 +107,46 @@
                 </div>
             </div>
         </div>
+        <div class="modal modal-lg" id="modal">
+            <div class="modal-content">
+                <h5>Nuevo Horario:</h5>
+                <div class="row">
+                    <div class="col m6 s12">
+                        <br><h6>Hora de Inicio: </h6>
+                    </div>
+                    <div class="col m6 s12 input-field">
+                        <input id="inicio" type="text" class="timepicker center">
+                        <label for="inicio" class="center">Hora de Inicio</label>
+                    </div>
+                    <div class="col m6 s12">
+                        <br><h6>Hora de Finalizacion: </h6>
+                    </div>
+                    <div class="col m6 s12 input-field">
+                        <input id="final" type="text" class="timepicker center">
+                        <label for="final" class="center">Hora de Finalizacion</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col m6 s12">
+                        <br><h6>Día: </h6>
+                    </div>
+                    <div class="input-field col m6 s12">
+                        <select id= "user" class="browser-default grey grey lighten-2">
+                          <option value="" disabled selected></option>
+                          <option value="1">Lunes</option>
+                          <option value="2">Martes</option>
+                          <option value="3">Miercoles</option>
+                          <option value="4">Jueves</option>
+                          <option value="5">Vienes</option>
+                          <option value="6">Sabado</option>
+                        </select>
+                    </div>
+                </div>
+            </div> 
+            <div class="modal-footer">
+                <a href="" class="btn waves-effect red darken-2 modal-close">Guardar Bloque</a>
+            </div> 
+        </div> 
         <!--  Scripts-->
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/materialize.js"></script>
