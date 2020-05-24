@@ -4,6 +4,7 @@
     $('.tooltipped').tooltip();
     $('.collapsible').collapsible();
     $('.modal').modal();
+    $('.dropdown-trigger').dropdown();
     $('.timepicker').timepicker({
       autoClose:true
     });
