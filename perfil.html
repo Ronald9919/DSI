@@ -50,59 +50,53 @@
                 <li><a style="color: white;" class="waves-effect" href="#!"><i style="color: white;" class="small material-icons">cancel</i>Salir</a></li><br>
               </ul>
             </div>
-            <div class="col s10">
-
-            </div>
-        </div>
-      </div>
-      
-
-      <div class="row">
-        <br>
-          <h4 class="col offset-m3 ">ESTUDIANTE: PERFIL</h4>
-          <a class="waves-effect red btn modal-trigger col offset-s10" href="#modal1">Perfil</a>
-          <div class="col m4 offset-m5 s12">
-            <div class="card white">
-              <div class="card-content black-text">
-                <center>
-                  <img class="img" src="img/usuario.jpg">
-                </center>
-                <br>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td>Carnet: </td>
-                      </tr>
-                      <tr>
-                        <td>Nombre: </td>
-                      </tr>
-                      <tr>
-                        <td>Apellido: </td>
-                      </tr>
-                      <tr>
-                        <td>DUI: </td>
-                      </tr>
-                      <tr>
-                        <td>Grupo: </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                <br><br>
-                <div class="row">
-                  <div class="col offset-m1 offset-s1">
-                <a class="waves-effect red btn modal-trigger" href="#modal2">Modicar</a>
-                <a class="waves-effect red btn">Guardar</a>
-                <a class="waves-effect red btn">Eliminar</a>
-              </div>
-              </div>
-              </div>
-            </div>
           </div>
         </div>
-
+      <div class="row">  <br>
+        <h4 class="col m8 offset-m3 ">ESTUDIANTE: PERFIL</h4>
+            <div class="col m4 offset-m5 s12">
+              <div class="card white">
+                <div class="card-content black-text">
+                  <center>
+                    <img class="img" src="img/usuario.jpg">
+                  </center>
+                  <br>
+                  <table>
+                    <tr>
+                      <th>Carnet: </th>
+                      <td>AC17042</td>
+                    </tr>
+                    <tr>
+                      <th>Nombres: </th>              
+                      <td>Ronald Alejandro</td>                           
+                    </tr>             
+                    <tr>              
+                      <th>Apellidos: </th>              
+                      <td>Aleman Caballero</td>                                        
+                    </tr>
+                    <tr>              
+                      <th>DUI: </th>              
+                      <td>12345678-9</td>                                        
+                    </tr>
+                    <tr>              
+                      <th>Grupo: </th>              
+                      <td>Grupo 1</td>                                        
+                    </tr>                  
+                  </table><br>
+                  <div class="row">
+                    <div class="col offset-m1 offset-s1">
+                      <a class="waves-effect red btn modal-trigger" href="#modal2">Modicar</a>
+                      <a class="waves-effect red btn">Guardar</a>
+                      <a class="waves-effect red btn">Eliminar</a>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div>
+        </div>
         <div class="row">
             <div class="col m6 offset-m4 s12">
-              <div class="card red darken-4">
+              <div class="card red darken-3">
                 <div class="card-content white-text">
                   <center>
                   <p>Documentos Del Estudiante</p>
@@ -119,7 +113,6 @@
                                   <th>Opcion</th>
                               </tr>
                             </thead>
-                    
                             <tbody>
                               <tr>
                                 <td>Alvin</td>
@@ -150,27 +143,40 @@
           <!-- Modal Structure -->
   <div id="modal1" class="modal modal-lg">
       <div class="modal-content">
-          <center>
-              <img class="img" src="img/usuario.jpg">
-            </center>
-            <br>
-            <p class="col offset-s1">Carnet: </p>
-            <br>
-            <p class="col offset-s1">Nombre: </p>
-            <br>
-            <p class="col offset-s1">Apellido: </p>
-            <br>
-            <p class="col offset-s1">DUI: </p>
-            <br>
-            <p class="col offset-s1">Grupo: </p>
+        <center>
+          <img class="img" src="img/usuario.jpg">
+        </center>
+        <br>
+        <table>
+          <tr>
+            <th>Carnet: </th>
+            <td>AC17042</td>
+          </tr>
+          <tr>
+            <th>Nombres: </th>              
+            <td>Ronald Alejandro</td>                           
+          </tr>             
+          <tr>              
+            <th>Apellidos: </th>              
+            <td>Aleman Caballero</td>                                        
+          </tr>
+          <tr>              
+            <th>DUI: </th>              
+            <td>12345678-9</td>                                        
+          </tr>
+          <tr>              
+            <th>Grupo: </th>              
+            <td>Grupo 1</td>                                        
+          </tr>                  
+        </table>
       </div>
       <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
+        <a href="#!" class="modal-close waves-effect waves-green btn red darken-2">Cerrar</a>
       </div>
     </div>
 
     <!-- Modal Structure -->
-  <div id="modal2" class="modal">
+  <div id="modal2" class="modal modal-lg">
       <div class="modal-content">
         <div class="row">
           <div class="input-field col s12">
@@ -194,10 +200,9 @@
               <label>Grupo</label>
           </div>
         </div>
-        <a class="waves-effect red btn">guardar</a>
       </div>
       <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
+        <a href="#!" class="modal-close waves-effect waves-light btn red darken-2 ">GUARDAR</a>
       </div>
     </div>
 

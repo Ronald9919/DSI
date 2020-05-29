@@ -5781,7 +5781,7 @@ body.keyboard-focused .dropdown-content li:focus {
 }
 .modal-xl{
   width: 70%;
-  height: 80%;
+  height: auto;
 }
 
 .modal:focus {
