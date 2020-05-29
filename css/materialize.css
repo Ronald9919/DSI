@@ -5758,7 +5758,7 @@ body.keyboard-focused .dropdown-content li:focus {
   right: 0;
   background-color: #fafafa;
   padding: 0;
-  max-height: 70%;
+  max-height: auto;
   width: auto;
   margin: auto;
   overflow-y: auto;
@@ -5776,14 +5776,12 @@ body.keyboard-focused .dropdown-content li:focus {
   margin-top: 10%;
 }
 .modal-lg{
-  max-height: 80%;
   width: 40%;
-  height: 70%;
+  height: auto;
 }
 .modal-xl{
-  max-height: 80%;
   width: 70%;
-  height: 70%;
+  height: 80%;
 }
 
 .modal:focus {

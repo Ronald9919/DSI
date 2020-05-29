@@ -12,7 +12,7 @@
     <title>Perfil</title>
 
     <style>
-      img{
+      .img{
         border-radius: 50%;
         width: 25%;
         height: 25%;
@@ -39,7 +39,7 @@
             <div class="col s2">
               <ul id="slide-out" class="sidenav sidenav-fixed ues">
                 <li><div >
-                  <img src="logo.svg" height="100%" width="35%" style="margin-top:6%; margin-left: 29%;" >
+                  <img src="img/1.svg" height="100%" width="35%" style="margin-top:6%; margin-left: 29%;" >
                 </div></li>
                 <br>
                 <li><div class="divider"></div></li><br>
@@ -59,27 +59,37 @@
 
       <div class="row">
         <br>
-          <h4 class="col offset-s3">ESTUDIANTE: PERFIL</h4>
+          <h4 class="col offset-m3 ">ESTUDIANTE: PERFIL</h4>
           <a class="waves-effect red btn modal-trigger col offset-s10" href="#modal1">Perfil</a>
-          <div class="col s4 offset-s5">
+          <div class="col m4 offset-m5 s12">
             <div class="card white">
               <div class="card-content black-text">
                 <center>
-                  <img src="usuario.jpg">
+                  <img class="img" src="img/usuario.jpg">
                 </center>
                 <br>
-                <p class="col offset-s1">Carnet: </p>
-                <br><br>
-                <p class="col offset-s1">Nombre: </p>
-                <br><br>
-                <p class="col offset-s1">Apellido: </p>
-                <br><br>
-                <p class="col offset-s1">Dui: </p>
-                <br><br>
-                <p class="col offset-s1">Grupo: </p>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>Carnet: </td>
+                      </tr>
+                      <tr>
+                        <td>Nombre: </td>
+                      </tr>
+                      <tr>
+                        <td>Apellido: </td>
+                      </tr>
+                      <tr>
+                        <td>DUI: </td>
+                      </tr>
+                      <tr>
+                        <td>Grupo: </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 <br><br>
                 <div class="row">
-                  <div class="col offset-s2">
+                  <div class="col offset-m1 offset-s1">
                 <a class="waves-effect red btn modal-trigger" href="#modal2">Modicar</a>
                 <a class="waves-effect red btn">Guardar</a>
                 <a class="waves-effect red btn">Eliminar</a>
@@ -91,7 +101,7 @@
         </div>
 
         <div class="row">
-            <div class="col s6 offset-s4">
+            <div class="col m6 offset-m4 s12">
               <div class="card red darken-4">
                 <div class="card-content white-text">
                   <center>
@@ -138,10 +148,10 @@
           </div>
 
           <!-- Modal Structure -->
-  <div id="modal1" class="modal">
+  <div id="modal1" class="modal modal-lg">
       <div class="modal-content">
           <center>
-              <img src="usuario.jpg">
+              <img class="img" src="img/usuario.jpg">
             </center>
             <br>
             <p class="col offset-s1">Carnet: </p>

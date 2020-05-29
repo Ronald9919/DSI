@@ -9,7 +9,7 @@
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-    <title>Estudiantes Activos</title>
+    <title>Usuarios</title>
 </head>
     <body bgcolor ="#f9fbe7">
       <div class="navbar-fixed">
@@ -47,57 +47,34 @@
             </div>
         </div>
       </div>
-      <br><br><br>
+      <br><br><br><br>
       <div class="row">
-        <div>
-            <a class="waves-effect red btn col offset-m5 ">Estudiantes Activos</a>
-            <a class="waves-effect red btn col offset-m1 ">Pendiente De Aprobacion</a>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col m6 offset-m4 s12">
-            <div class="card red darken-3">
-                <div class="card-content white-text">
-                  <center>
-                  <span class="card-title">Estudiantes Activos: ####</span>
-                  <center>
+        <div class="col m3 offset-m4 s8 offset-s2">
+            <div class="card">
+                <div class="card-image">
+                  <img src="img/agregarU.png">
                 </div>
-          <div class="card white">
-            <div class="card-content black-text">
-                <div class="col offset-m11 offset-s10">
-              <a class="btn-floating btn-medium waves-effect waves-light red">
-                  <i class="material-icons">remove_red_eye</i>
-              </a>
+                <center>
+                <div class="card-action">
+                  <a class="modal-trigger" href="#modal1">CREAR USUARIO</a>
+                </div>
+                </center>
             </div>
-            <table>
-                <tbody>
-                  <tr>
-                    <th>Carnet: </th>
-                  </tr>
-                  <tr>
-                    <th>Nombre: </th>
-                  </tr>
-                  <tr>
-                    <th>Apellido: </th>
-                  </tr>
-                  <tr>
-                    <th>Carrera: </th>
-                  </tr>
-                  <tr>
-                    <th>Grupo: </th>
-                  </tr>
-                </tbody>
-              </table>
-              <br>
-              <a class="waves-effect red btn col offset-m11 offset-s10">PERFIL</a>
-              <br>
-            </div>
-          </div>
         </div>
-      </div>
-      </div>
+
+        <div class="col m3  s8 offset-s2">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="img/consultar.png">
+                    </div>
+                    <center>
+                    <div class="card-action">
+                      <a class="modal-trigger" href="#modal2">CONSULTAR USUARIO</a>
+                    </div>
+                    </center>
+                </div>
+            </div>
+    </div>
 
         <!--  Scripts-->
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
