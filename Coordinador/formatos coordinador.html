@@ -55,7 +55,7 @@
                   <label class="active" for="search">BUSCAR</label>
                 </div>
                 <div class="col m4 s10 offset-s1">
-                  <br><button class="red darken-2 btn col m12 s12">Nuevo Formato</button>
+                  <br><button data-target="idmodal" class="red darken-2 modal-trigger btn col m12 s12">Nuevo Formato</button>
                 </div>
                 <div class="col m2 s10 offset-s1">
                   <br><button class="red darken-2 btn col m12 s12">Buscar</button>
@@ -95,6 +95,52 @@
             </div>
           </form>
         </div>
+        <div class="modal modal-lg" id="idmodal">
+          <div class="modal-content">
+            <div class="row">
+              <div class="col m12 s12">
+                  <h5>Nuevo formato </h5>
+              </div>
+              <div class="col m12 s12">
+                  <div class="input-field col m12 s12">
+                      <textarea id="textarea1" class="materialize-textarea validate"></textarea>
+                      <label for="texarea1">Nombre</label><br>
+                  </div>
+                  <div class="input-field col m12 s12">
+                      <textarea id="textarea1" class="materialize-textarea validate"></textarea>
+                      <label for="texarea1">Descripcion</label><br>
+                  </div>
+                  <div class="row">
+                      <div class="file-field input-field m12 s12">
+                          <div class="waves-effect waves-light btn-small red darken-2 col m12 s12">
+                          <span>Subir Archivo</span>
+                          <input type="file" multiple>
+                          </div>
+                          <div class="file-path-wrapper col m12 s12">
+                          <input class="file-path validate" type="text">
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col m12 s12">
+                          <button class="red darken-2 btn col m5 s5">Guardar Formato</button>
+                          <button class="red darken-2 btn col m6 offset-m1 s6 offset-s1">Tutorial Formatos</button>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col m12 s12">
+                      <button class="red darken-2 btn col m12 s12">Diccionario de variables</button>
+                    </div>
+                  </div>
+              </div>      
+          </div>
+          </div> 
+          <div class="modal-footer">
+              <a href="" class="btn waves-effect red darken-2 modal-close">Cerrar</a>
+          </div> 
+      </div>  
+
+
         <!--  Scripts-->
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/materialize.js"></script>
