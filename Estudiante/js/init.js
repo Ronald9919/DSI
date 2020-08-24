@@ -20,4 +20,8 @@ $(function() {
       $('#' + $(this).val()).show();
   });
 });
-
+//esta onda es para que el menu sea desplazable
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems, options);
+});
